@@ -9,23 +9,23 @@ One thing to note: Replace step 0 with our step 0 below.
 ----------------
 - Login to OSE as admin
 
-    oc login -u admin
+        oc login -u admin
 
 - Create a new project (microservices-lab)
 
-    oc new-project microservices-lab
+        oc new-project microservices-lab
 
 - Add admin role to openshift-dev user for microservices-lab project
 
-    oc policy add-role-to-user admin openshift-dev -n microservices-lab
+        oc policy add-role-to-user admin openshift-dev -n microservices-lab
 
 - Logout as admin, login as openshift-dev on CLI and web UI
 
-    oc logout
-    oc login -u openshift-dev 
-    oc project microservices-lab
+        oc logout
+        oc login -u openshift-dev 
+        oc project microservices-lab
 
 - Set some env vars
 
-    export OSE_DOMAIN=rhel-cdk.<vagrant VM IP>.xip.io
-    export OSE_PROJECT=microservices-lab
+        export OSE_DOMAIN=rhel-cdk.<vagrant VM IP>.xip.io
+        export OSE_PROJECT=microservices-lab
