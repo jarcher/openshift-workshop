@@ -1,5 +1,11 @@
 Introduction Lab
 ================
+
+These labs all rely on the CDK being properly installed and configured on your machine. In addition, the labs rely upon the pulicly available _xip.io_ wildcard DNS service to resolve the FQDNs in these labs to your CDK environment. Usually xip.io works without issue. However, some ISP DNS or corporate DNS servers block wildcard DNS requests. In this case, we can temporarily set our DNS settings to use Google's (which does allow wildcard DNS requests):
+
+		8.8.8.8
+		8.8.8.4
+
 1) Login to the OpenShift WebUI as admin
 ----------------------------------------
 
