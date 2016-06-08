@@ -6,13 +6,12 @@ CLI Lab
 1) Deploy application via CLI
 -----------------------------
 
-	- Login via CLI using the openshift-dev user account (password is _devel_) and switch to intro-lab project
-		oc logout
-		oc login -u openshift-dev
-		oc project intro-lab
+- Login via CLI using the openshift-dev user account (password is _devel_) and switch to intro-lab project
+	oc logout
+	oc login -u openshift-dev
+	oc project intro-lab
 	
- - Deploy an example nodeJS app from GitHub, expose service route
-
+- Deploy an example nodeJS app from GitHub, expose service route
 	oc new-app https://github.com/openshift/nodejs-ex -l name=nodejs-example
 	oc expose svc nodejs-ex
 
