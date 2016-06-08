@@ -47,3 +47,4 @@ CLI Lab
     
     Note: This deployment could still take up to a minute but notice that it should be a bit faster. Automated build is still running but now the required docker image is already cached locally
 
+Next Lab: [Microservices Lab](microservices.md)
