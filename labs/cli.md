@@ -8,7 +8,7 @@ CLI Lab
 
 - Login via CLI using the openshift-dev user account (password is _devel_) and switch to intro-lab project
 
-	oc logout
+    oc logout
 	oc login -u openshift-dev
 	oc project intro-lab
 	
