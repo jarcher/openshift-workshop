@@ -34,4 +34,4 @@ These labs all rely on the CDK being properly installed and configured on your m
   	
   - Once the deployment is complete you should see your _first-app_ service and deployment (showing a single deployed pod) components listed in the main project overview screen. If so, you've successfully deployed your first application.
 
-Next Lab: 1. [WebUI Lab](webui.md)
+Next Lab: [WebUI Lab](webui.md)
