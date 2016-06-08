@@ -33,3 +33,5 @@ These labs all rely on the CDK being properly installed and configured on your m
   	- OpenShift will create a new image layer with the retrieved code from the referenced Git URL and context directory, layer it on top of the base container image, and deploy the resulting combined layers as a running container to an available OpenShift node.
   	
   - Once the deployment is complete you should see your _first-app_ service and deployment (showing a single deployed pod) components listed in the main project overview screen. If so, you've successfully deployed your first application.
+
+Next Lab: 1. [WebUI Lab](webui.md)
