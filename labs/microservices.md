@@ -29,3 +29,5 @@ One thing to note: Replace step 0 with our step 0 below.
 
         export OSE_DOMAIN=rhel-cdk.<vagrant VM IP>.xip.io
         export OSE_PROJECT=microservices-lab
+
+Back to [Lab Index](index.md)
