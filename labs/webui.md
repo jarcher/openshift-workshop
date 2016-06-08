@@ -61,4 +61,4 @@ WebUI Lab
   
   - To delete an application from an OpenShift project, you must delete each one of these components. However, ReplicationControllers cannot yet be deleted via the UI. We will delete applications in the CLI lab.
 	
-Next Lab: [WebUI Lab](webui.md)
+Next Lab: [CLI Lab](cli.md)
