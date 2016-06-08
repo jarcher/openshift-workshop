@@ -15,6 +15,6 @@ Introduction Lab
   
 	- From the resulting _Add to Project_ screen, choose the _php:latest_ build image
 	  - Name the application _first-app_
-	  - Set the Git Repository URL to _https://github/ptavares-rh/openshift-workshop/_
-	  
+	  - Set the Git Repository URL to _https://github.com/ptavares-rh/openshift-workshop.git_
+	  - Set the Context Dir field to _/labs/code/intro_
   - Click the _Create_ button at the bottom left of the screen.
