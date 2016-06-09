@@ -9,7 +9,7 @@ WebUI Lab
 2) Deploy example Ruby application:
 -----------------------------------
   
-  - Select your _intro-lab_ project, create it first if necesary.
+  - Select your _intro-lab_ project, create it first if necessary.
   
   - Click _Add to Project_ button in top right
 	
@@ -50,7 +50,7 @@ WebUI Lab
   - From the Project Overview page, click the topology button located on the same line as the project display name
   
   - Notice all the components associated with _ruby-example_ application (as well as any other apps) 
-	  - By cliecking each connected component, you should see a DeploymentConfig, ReplicationController, Pod, Service, and Router
+	  - By clicking each connected component, you should see a DeploymentConfig, ReplicationController, Pod, Service, and Router
   
   - Each of these components has a purpose:
     - _DeploymentConfig_: sets any configuration settings for the application on the cluster and defines under what conditions the application should be re-created
